@@ -1,0 +1,2 @@
+Versionner en local : 
+git init : initialiser un dépôt sur ton dossier
