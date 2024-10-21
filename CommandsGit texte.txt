@@ -1,2 +1,47 @@
 Versionner en local : 
-git init : initialiser un dépôt sur ton dossier
+git init : initialiser un dépôt sur ton dossier, mieux à faire 
+           depuis GitHub
+git add . : ajouter toutes les modifications (le . symbolise tout)
+git commit -m : créer un nouveau commit git add pour pour les fichiers
+                en zone index git commit les sauvegardes réellement dans 
+                un nouveau commit
+
+Gérer les commits :
+git log : liste les commits
+git log -n2 : affiche les deux derniers commits
+git show cha-1 : voir commit spécifique (cliquer mollette souris pour 
+                 coller)
+git checkout cha-1 : remettre la version du cha-1 
+git checkout main : remettre la version la plus récette
+
+Versionner sur un dépot distant :
+git clone : récupère travail depui dépot distant
+git push -u origin main : pousse les modifications vers serveurs
+git push -f orgin main : pousse de force les modifications(à manipuler
+                         avec précaution)
+
+Naviguer dans GitBash
+pwd : savoir dans quel dossier je suis
+mkdir "dossier" : creer un dossier (make Directory)
+touch fichier.txt : créer fichier
+ls : liste le fichier ouvert
+ls-la : liste tout précisemment que la
+cd dossier : aller dans le dossier (Change Directory)
+cd.. Remonter d'un dossier
+
+Initialisation de Git
+git config --global user.name "Mon Nom"
+git config --global user.email" mon@mail.com
+git config --global --list
+
+Autres commandes
+git status : état du fichier
+git diff : affiche les modifs avant commit
+
+Commit son projet sur GitHub
+git add .
+git commit -m "message"
+git push -u origin main
+
+
+	    
